@@ -3,14 +3,16 @@
 /* Base
 ------------------------------------------------------------*/
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  background-color: #f9f8f6;
+  }
 
 
 /* main
 ------------------------------------------------------------*/
 
 header {
-  background: #e8d5d5; }
+  background: #f9f8f6; }
   header #contents {
     padding-top: 10px;
     padding-bottom: 4px; }
@@ -64,6 +66,7 @@ header {
     width: 100%;
     background-color: #f8f8f8;
   }
+
   .main{
     width: 74%;
     height: 100%; 
@@ -71,7 +74,11 @@ header {
     background-color: #d4d4d4;
     margin: 0;
   }
-  .box {
+    .carusel{
+    width: 100%;
+    background-color: #f9f8f6;
+  }
+    .box {
     width: 32%;
     height: 200px;
     display: inline-block;
@@ -93,7 +100,7 @@ header {
 ------------------------------------------------------------*/
 
     footer {
-      background-color: #e8d5d5;
+      background-color: #f9f8f6;
       padding-top: 30px; }
 
 

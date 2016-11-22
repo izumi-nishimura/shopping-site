@@ -36,7 +36,10 @@ header {
     display: inline-block;
     margin: 0.5% 0.1%;
   } 
-    .box img{
+  .box2{
+    background-color: #fff;
+  }
+  .box img{
     width: 100%;
     height: auto;
   }
@@ -48,7 +51,26 @@ header {
   .box a{
     text-decoration: none;
   }
-  
+  .box2 h3{
+    font-weight: bold;
+    font-size: large;
+    color: #887f69;
+    margin-bottom: 0.3em;
+  }
+  .box2 h4{
+    font-size: medium;
+    color: #887f69;
+    margin-bottom: 0.3em;
+  }
+  .box2 img{
+    text-align: left;
+    margin-bottom: 1em;
+    max-width: 100%;
+  }
+  .box2 p{
+    font-size: small;
+    color: #000000;
+  }
   .sidebar{
         background-color:pink;
         width: 100%;
@@ -60,7 +82,7 @@ header {
   .main{
     width: 100%;
     height: 100%; 
-    background-color: #d4d4d4;
+    background-color: #f9f8f6;
     margin: 0;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -166,26 +188,7 @@ header {
     background-color: #fff;
     vertical-align:top;
   }
-  .box2 h3{
-    font-weight: bold;
-    font-size: large;
-    color: #887f69;
-    margin-bottom: 0.3em;
-  }
-  .box2 h4{
-    font-size: medium;
-    color: #887f69;
-    margin-bottom: 0.3em;
-  }
-  .box2 img{
-    text-align: left;
-    margin-bottom: 1em;
-    max-width: 100%;
-  }
-  .box2 p{
-    font-size: small;
-    color: #000000;
-  }
+
   .sidebar{
     width: 26%;
     height: 400px;
@@ -225,5 +228,6 @@ header {
     .copy{
       text-align: center;
       font-size: small;
+      color: #887f69;
     }
 

@@ -18,10 +18,10 @@ header {
 }
 
   @media (max-width: 550px) {
-    header .header_in{
-      background-color: orange;
-      }
-    header .logo {
+    header .pc_navi{
+      display: none;
+    }
+    header .row {
       }
     header .navi {
       }
@@ -32,18 +32,15 @@ header {
   }
   
   @media (min-width: 550px) {
-    header .header_in{
-      display: block;
-      background-color: orange;
-      position: relative;
+    header .sp_navi{
+      display: none;
     }
     header .row{
-      
+      margin: 20px 0;
+      display: block;
+      position: relative;
     }
-    header .logo {
-      }
     header .navi {
-      text-align: right;
       position: absolute;
       bottom: 0;
       right: 0;
@@ -52,9 +49,6 @@ header {
       width:auto;
       display: inline-block;
       margin-left: 10px;
-    }
-    h1{
-      
     }
     
   }

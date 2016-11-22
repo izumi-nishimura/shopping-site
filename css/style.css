@@ -77,15 +77,17 @@ header {
     width: 100%;
     height: 15px;
     margin: 10px 0;
-    background-image: url(../images/top/title_popular.png);
+    background-image: url(../images/top_sp/title_popular.png);
     background-position: center;
+    background-repeat: no-repeat;
   }
   .title3{
     width: 100%;
     height: 15px;
     margin: 10px 0;
-    background-image: url(../images/top/title_guide.png);
+    background-image: url(../images/top_sp/title_guide.png);
     background-position: center;
+    background-repeat: no-repeat;
   }
   .line{
     margin: 0 0.8%;
@@ -148,10 +150,40 @@ header {
   .box {
     width: 32%;
     background-color: #fff;
-
-    
   }
-
+  .box2 {
+    text-align: left;
+    background-color: #fff;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0.5% 0.1%;
+    width: 49%;
+    height: auto;
+    background-color: #fff;
+    vertical-align:top;
+  }
+  .box2 h3{
+    font-weight: bold;
+    font-size: large;
+    color: #887f69;
+    margin-bottom: 0.3em;
+  }
+  .box2 h4{
+    font-size: medium;
+    color: #887f69;
+    margin-bottom: 0.3em;
+  }
+  .box2 img{
+    text-align: left;
+    margin-bottom: 1em;
+    max-width: 100%;
+  }
+  .box2 p{
+    font-size: small;
+    color: #000000;
+  }
   .sidebar{
     width: 26%;
     height: 400px;
@@ -170,6 +202,18 @@ header {
     footer {
       background-color: #f9f8f6;
       padding-top: 30px; }
-
-
+      
+    .footer_menu{
+      text-align: center;
+      font-size: small;
+      color: #000000;
+    }
+    .footer_menu a{
+      text-decoration: none;
+      color: #000000;
+    }
+    .copy{
+      text-align: center;
+      font-size: small;
+    }
 

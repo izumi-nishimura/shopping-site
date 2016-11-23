@@ -21,13 +21,9 @@ header {
     header .pc_navi{
       display: none;
     }
-    header .row {
-      }
-    header .navi {
-      }
-    header .link{
-      }
-      
+    header .c_navi{
+      display: none;
+    }
     
   }
   

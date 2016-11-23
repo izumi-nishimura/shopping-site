@@ -62,24 +62,26 @@
           <div class="link">
             <a href="#"><img src="images/top/insta.png" alt="instgram"></a>
           </div>        
-          <img id="sp_navi_btn" class="u-max-full-width" src="images/top_sp/menu_icon.png" alt="sp_navi" srcset="images/top_sp/menu_icon@2x.png 2x" />
-          <div class="c_navi">
           <div class="link">
+            <img id="sp_navi_btn" class="u-max-full-width" src="images/top_sp/menu_icon.png" alt="sp_navi" srcset="images/top_sp/menu_icon@2x.png 2x" />
+            <div class="c_navi">
+              <div class="c_link">
             <a href="#"><img src="images/top/menu_login.png" alt="login"></a>
           </div>
-          <div class="link">
+              <div class="c_link">
             <a href="#"><img src="images/top/menu_cart.png" alt="cart"></a>
           </div>
-          <div class="link">
+              <div class="c_link">
             <a href="#"><img src="images/top/menu_mypage.png" alt="mypage"></a>
           </div>
-          <div class="link">
+              <div class="c_link">
             <a href="#"><img src="images/top/menu_guide.png" alt="guide"></a>
           </div>
-        </div>
-        </div>
+            </div><!-- c_navi --> 
+          </div>
+        </div><!-- sp_menu --> 
 
-      </div>
+      </div><!-- sp_navi -->
       
       </div>
     </div>
@@ -282,11 +284,9 @@
 <script>
   $(function(){
     $(document).ready(function(){
-
       $("#sp_navi_btn").click(function () {
         $(this).next().slideToggle();
       });
-
     });
   });
 </script>
